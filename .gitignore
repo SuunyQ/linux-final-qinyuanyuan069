@@ -1,2 +1,17 @@
-# .gitignore：忽略tmpfile
-tmpfile
+# 排除临时文件tmpfile（任务要求）
+tmpfile  
+
+# 排除编译生成的可执行文件
+parser_app  
+
+# 排除编译生成的目标文件（.o结尾）
+*.o  
+
+# 排除静态库（.a结尾）
+*.a  
+
+# 排除动态库（.so结尾）
+*.so  
+
+# 排除GDB生成的核心转储文件（后续GDB步骤会生成，无需纳入版本）
+core
